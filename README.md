@@ -1,7 +1,7 @@
 
 <a name="readme-top"></a>
 
-# AWESOME BOOK<a name="about-project"></a>
+# AWESOME BOOK ES6<a name="about-project"></a>
 
 
 # 📗 Table of Contents
@@ -28,7 +28,7 @@
 # 📖 AWESOME BOOK<a name="about-project"></a>
 
 
-[**AWESOME BOOK**](https://github.com/tatouroberto/Awesome-Books) is a website to add and remove books.
+[**AWESOME BOOK ES6**](https://github.com/tatouroberto/Awesome-Books) is a website to add and remove books.
 
 
 ## 🛠 Built With <a name="built-with"></a>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AWESOME BOOKS</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="text-container">
+                <h1 class="titlee">Awesome books</h1>
+            </div>
+          
+          <ul class="menu-list">
+              <li><a href="#" id="list">List</a></li>
+              <span class="linee"></span>
+              <li><a href="#" id="new">Add New</a></li>
+              <span class="linee"></span>
+              <li><a href="#" id="contact">Contact</a></li>
+          </ul>
+        </nav>
+        <p id="date"></p>
+    </header>
+    <main>
+        <div class="list-parts">
+            <h3 class="heading">All awesome Books</h3>
+            <div id="book-list" >
+
+            </div>
+          
+        </div>
+   
+    
+    <form action="post" class="contact-form">
+        <h3>Add a new book</h2>
+        <div class="label-container">
+            <div>
+                <input type="text" id="title" placeholder="title" >
+            </div>
+            <br>
+            <div>
+                <input type="text" id="authur" placeholder="authur">
+            </div>
+            <br>
+            <div class="button-container">
+                <button type="button" id="addBtn">Add</button>
+            </div>
+
+        </div>
+        
+    </form>
+
+    <section class="contact">
+        <div>
+            <h2>
+                Contact Information
+              </h2>
+        
+              <p>
+                Do you have any questions or you just want to say "Hello"? <br>You can reach out to us!
+              </p>
+              <div>
+                <ul>
+                  <li>Our email: emailaddress@gmail.com</li>
+                  <li>Our Phone number: 5554874587451</li>
+                  <li>Our Address: Some address</li>
+                </ul>
+              </div>
+
+        </div>
+        
+      </section>
+</main>
+
+    <footer >
+        <div class="copyright">
+            <p>Copyright <a href="./MIT.md">MIT License</a></p>
+        </div>
+    </footer>
+    <script type="module" src="index.js" defer></script>
+</body>
+</html>

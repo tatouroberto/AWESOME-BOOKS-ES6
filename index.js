@@ -1,6 +1,6 @@
-import Book from './MODULES/bookss.js';
 import { DateTime } from './MODULES/luxon.js';
 import './MODULES/menu.js';
+import Book from './MODULES/bookss.js';
 
 class BookList {
   constructor() {
@@ -21,18 +21,16 @@ class BookList {
       dateContainer.textContent = time;
     }
 
-    addBooks = (event) => {
+    addBooks(event) {
       event.preventDefault();
-      const title = this.inputTitle.ariaValueMax;
-      const author = this.inputAuthor.ariaValueMax;
+      const title = this.inputTitle.value;
+      const author = this.inputAuthor.value;
       if (title !== '' && author !== '') {
         const book = new Book(Date.now(), title, author);
         this.books = [book, ...this.books];
         localStorage.setItem('book', JSON.stringify(this.books));
       }
       this.displayBooks();
-      this.inputTitle = '';
-      this.inputAuthor = '';
     }
 
     displayBooks = () => {
